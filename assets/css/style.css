@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-size: 14px;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons-h{
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+
+main{
+    margin: 60px 50px;
+}
+
+.margin{
+    margin: 15px 10px;
+    font-size: 18px;
+}
+
+.icons-start{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.utente{
+    position: relative;
+    margin: 8px 5px;
+}
+
+.nomeutente{
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    z-index: 9;
+    background-color: rgba(73, 70, 70, 0.5);
+    margin: 1px 1px;
+}
+
+footer{
+    background-color: grey;
+
+    text-align: center;
+    height: 70px;
+    padding: 5px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.grid-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: -50px;
+    gap: 10px;
+}
+
+.end-meeting{
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+    background-color: slategray;
+}
