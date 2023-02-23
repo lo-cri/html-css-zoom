@@ -57,8 +57,7 @@ main{
 }
 
 footer{
-    background-color: grey;
-
+    background-color: lightslategrey;
     text-align: center;
     height: 70px;
     padding: 5px;
@@ -67,6 +66,7 @@ footer{
     bottom: 0;
     right: 0;
     left: 0;
+    z-index: 10000000000000;
 }
 
 .grid-icons{
@@ -81,5 +81,5 @@ footer{
     display: flex;
     justify-content: flex-end;
     color: red;
-    background-color: slategray;
+    background-color: black;
 }
